@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    background-color: #3E3B47;
+    border-radius: 8px;
+
+    padding: 16px;
+    padding-bottom: 32px;
+}
+
+.image{
+    width: 100%;
+}
+
+.productName {
+    color: #FFF;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.productDescription {
+    color: #989898;
+}
+
+.productPrice {
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin: 4px;
+}
+
+.trashcan {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+@media (max-width: 800px){
+    .image{
+        width: 80%;
+    }
+}
